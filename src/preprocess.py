@@ -1,6 +1,6 @@
 # src/preprocess.py
-import numpy as np
 import os
+import numpy as np
 
 
 def normalize(values):
