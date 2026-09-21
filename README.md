@@ -1,0 +1,1 @@
+Added gitignore and made the structure of the code 
