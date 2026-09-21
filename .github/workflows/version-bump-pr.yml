@@ -19,6 +19,9 @@ jobs:
               with:
                 python-version: "3.12"
 
+            - name: Install dependencies
+              run: pip install pytest
+
             - name: Read Current Verison
               id: old_version
               run: echo "version=$(cat VERSION)" >> "$GITHUB_OUTPUT"
